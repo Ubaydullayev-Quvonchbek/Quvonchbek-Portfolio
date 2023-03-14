@@ -170,6 +170,18 @@ main {
     color: #21243D;
 }
 
+.year-type {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.salom{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
 .year {
     font-weight: 900;
     font-size: 18px;
@@ -178,6 +190,23 @@ main {
     border-radius: 16px;
     padding: 5px 10px;
     display: inline;
+}
+
+.type {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695A4;
+    margin-left: 26px;
+}
+
+.lorem {
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+}
+
+.img{
+    margin-right: 20px;
 }
 
 @media (max-width: 575px) {

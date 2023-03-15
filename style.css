@@ -177,7 +177,7 @@ main {
     margin-bottom: 30px;
 }
 
-.salom{
+.salom {
     margin-top: 35px;
     margin-bottom: 35px;
 }
@@ -205,8 +205,74 @@ main {
     color: #21243D;
 }
 
-.img{
+.img {
     margin-right: 20px;
+}
+
+.name {
+    font-size: 16px;
+    color: #142850;
+    background-color: #FFFFFF;
+    width: 25%;
+    padding: 15px 20px;
+    border: 1.5px solid #142850;
+    border-right: 5px solid #142850;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.comment {
+    font-size: 16px;
+    color: #142850;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 15px 20px 200px 20px;
+    border: 1.5px solid #142850;
+    border-right: 5px solid #142850;
+    outline: none;
+    border-radius: 3px;
+}
+
+.button {
+    font-size: 16px;
+    color: #142850;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 15px 20px;
+    border: 1.5px solid #142850;
+    border-right: 5px solid #142850;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.commentary-card{
+    border: .5px solid #00A8CC;
+    padding: 10px;
+    border-right: 5px solid #00A8CC;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+h5{
+    padding: 5px 10px;
+    border: .5px solid #00A8CC;
+    display: inline-block;
+    border-right: 5px solid #00A8CC;
+    border-radius: 3px;
+}
+
+h6{
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-left: 2px solid #00A8CC;
+    border-radius: 5px;
+}
+
+.HTML-POST{
+    margin-bottom: 60px;
 }
 
 @media (max-width: 575px) {

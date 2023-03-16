@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Portfolio Quvonchbek</title>
+    <title>Portfolio Home</title>
 </head>
 
 <body>
@@ -47,14 +47,21 @@
                 </div>
             </nav>
             <div class="row justify-content-center">
-                <div class="col-5">
+                <div class="col-12 col-sm-5 d-block d-sm-none">
+                    <div class="image d-flex justify-content-center">
+                        <div class="header-image">
+                            <img width="100%" src="./img/person.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-5 tac">
                     <h1 class="header-text">Hi, I am Quvonchbek, <br> Creative Technologist</h1>
                     <p class="header-poragraf">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br>
                         sint. Velit officia consequat duis enim velit mollit. Exercitation veniam <br> consequat sunt
                         nostrud amet.</p>
                     <button class="btn res-btn">Download Resume</button>
                 </div>
-                <div class="col-5">
+                <div class="col-5 d-none d-sm-block">
                     <div class="image d-flex justify-content-end">
                         <div class="header-image">
                             <img width="100%" src="./img/person.jpg" alt="">
@@ -68,15 +75,17 @@
     <main>
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-2 d-flex align-items-center">
+                <div class="col-12 col-sm-2 d-flex align-items-center tac">
                     <h1 class="posts">Recent posts</h1>
                 </div>
-                <div class="col-1 d-flex align-items-center">
-                    <h1 class="view">View all</h1>
+                <div class="col-1 d-none d-sm-block">
+                    <div class="text-txt d-flex align-items-center">
+                        <h1 class="view">View all</h1>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-sm-4">
                     <div class="card d-flex justify-content-center align-items-center">
                         <div class="daddy-card">
                             <div class="card-top">
@@ -97,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-4">
                     <div class="card d-flex justify-content-center align-items-center">
                         <div class="daddy-card">
                             <div class="card-top">
@@ -118,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-4">
                     <div class="card d-flex justify-content-center align-items-center">
                         <div class="daddy-card">
                             <div class="card-top">
@@ -146,13 +155,13 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-2">
+                <div class="col-12 col-sm-2">
                     <h1 class="works">Featured works</h1>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-11">
-                    <div class="works-card d-flex">
+                <div class="col-12 col-sm-11">
+                    <div class="works-card">
                         <div class="img">
                             <img src="./img/Rectangle 30.png" alt="">
                         </div>
@@ -170,8 +179,8 @@
                     </div>
                     <hr class="salom">
                 </div>
-                <div class="col-11">
-                    <div class="works-card d-flex">
+                <div class="col-12 col-sm-11">
+                    <div class="works-card">
                         <div class="img">
                             <img src="./img/Rectangle 30.png" alt="">
                         </div>
@@ -189,8 +198,8 @@
                     </div>
                     <hr class="salom">
                 </div>
-                <div class="col-11">
-                    <div class="works-card d-flex">
+                <div class="col-12 col-sm-11">
+                    <div class="works-card">
                         <div class="img">
                             <img src="./img/Rectangle 30.png" alt="">
                         </div>
@@ -215,7 +224,18 @@
     <footer>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-10"></div>
+                <div class="col-12 col-sm-10">
+                    <div class="width100 d-flex">
+                        <a class="icons" href="https://github.com/Ubaydullayev-Quvonchbek"><i class="fa-brands fa-github"></i></a>
+                        <a class="icons" href="https://www.youtube.com/channel/UCntRmK8qVYXlLPJ0FA8tybg"><i class="fa-brands fa-youtube"></i></a>
+                        <a class="icons" href="https://t.me/Developer_Quvonchbek"><i class="fa-brands fa-telegram"></i></a>
+                        <a class="icons" href="https://linktr.ee/quvonchbek_ubaydullayev"><i class="fa-solid fa-link"></i></a>
+                        <a class="icons" href="https://www.instagram.com/quvonchbek_ubaydullayev/"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="icons" href="https://www.facebook.com/profile.php?id=100077345103490"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="icons" href="https://twitter.com/quvonchbeku048"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <p class="reserved">Copyright ©2020 All rights reserved</p>
+                </div>
             </div>
         </div>
     </footer>

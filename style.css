@@ -247,7 +247,7 @@ main {
     border-radius: 4px;
 }
 
-.commentary-card{
+.commentary-card {
     border: .5px solid #00A8CC;
     padding: 10px;
     border-right: 5px solid #00A8CC;
@@ -255,7 +255,7 @@ main {
     margin-bottom: 20px;
 }
 
-h5{
+h5 {
     padding: 5px 10px;
     border: .5px solid #00A8CC;
     display: inline-block;
@@ -263,7 +263,7 @@ h5{
     border-radius: 3px;
 }
 
-h6{
+h6 {
     margin-left: 30px;
     margin-top: 10px;
     padding-left: 5px;
@@ -271,12 +271,196 @@ h6{
     border-radius: 5px;
 }
 
-.HTML-POST{
+.HTML-POST {
     margin-bottom: 60px;
+}
+
+footer {
+    margin-top: 135px;
+}
+
+.width100 {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.icons {
+    font-size: 30px;
+    color: #21243D;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-youtube:hover {
+    color: #f00;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #c0007a;
+}
+
+.fa-github:hover {
+    color: #121;
+}
+
+.fa-twitter:hover,
+.fa-telegram:hover {
+    color: #00A8CC;
+}
+
+.fa-link:hover {
+    color: #999999;
+}
+
+.reserved {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #21243D;
+    margin-bottom: 54px;
+}
+
+.works-card {
+    display: flex;
 }
 
 @media (max-width: 575px) {
     .navbar {
         margin-top: 20px;
+        padding-bottom: 33px;
+    }
+
+    .image {
+        margin-bottom: 43px;
+    }
+
+    .header-text {
+        font-weight: 700;
+        font-size: 32px;
+        text-align: center;
+        color: #21243D;
+        margin-bottom: 21px;
+    }
+
+    .header-poragraf {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #21243D;
+        margin-bottom: 27px;
+    }
+
+    .res-btn {
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .tac {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .posts {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        align-items: flex-end;
+        color: #21243D;
+    }
+
+    .scratch {
+        font-weight: 700;
+        font-size: 22px;
+        color: #21243D;
+        margin-bottom: 12px;
+    }
+
+    .card-body1 .d-flex {
+        margin: 0;
+        width: 100%;
+    }
+
+    .feb {
+        font-weight: 400;
+        font-size: 16px;
+        color: #21243D;
+        margin-bottom: 19px;
+    }
+
+    .pattern {
+        font-weight: 400;
+        font-size: 16px;
+        color: #21243D;
+        margin-bottom: 19px;
+    }
+
+    .text {
+        font-weight: 400;
+        font-size: 16px;
+        color: #21243D;
+    }
+
+    .works {
+        font-weight: 400;
+        font-size: 18px;
+        color: #21243D;
+        text-align: center;
+    }
+
+    .works-card {
+        display: block;
+    }
+
+    .img,
+    .img img {
+        margin: 0;
+        width: 100%;
+    }
+
+    .dashboards {
+        font-weight: 700;
+        font-size: 24px;
+        color: #21243D;
+        margin-top: 17px;
+        margin-bottom: 16px;
+    }
+
+    .year {
+        font-weight: 900;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .type {
+        font-weight: 400;
+        font-size: 16px;
+        color: #8695A4;
+        margin-left: 20px;
+    }
+
+    .year-type {
+        margin-bottom: 20px;
+    }
+
+    .salom {
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+
+    .icons{
+        font-size: 25px;
+        color: #21243D;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 }

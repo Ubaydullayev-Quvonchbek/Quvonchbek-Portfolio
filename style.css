@@ -362,6 +362,37 @@ footer {
     color: #21243D;
 }
 
+.handlebars {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695A4;
+    margin: 0;
+}
+
+.express {
+    font-weight: 400;
+    font-size: 20px;
+    color: #21243D;
+    margin: 0;
+}
+
+.re {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nostrud {
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+}
+
+.post-card-body,
+.nostrud {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 @media (max-width: 575px) {
     .navbar {
         margin-top: 20px;
@@ -495,5 +526,62 @@ footer {
         color: #21243D;
         margin-left: 8px;
         margin-right: 8px;
+    }
+
+    .home-works-blog-contact {
+        font-weight: 700;
+        font-size: 30px;
+        color: #21243D;
+    }
+
+    .week {
+        font-weight: 500;
+        font-size: 24px;
+        color: #21243D;
+    }
+
+    .express {
+        font-weight: 400;
+        font-size: 16px;
+        color: #21243D;
+    }
+
+    .handlebars {
+        font-weight: 400;
+        font-size: 16px;
+        color: #8695A4;
+    }
+
+    .nostrud {
+        font-weight: 400;
+        font-size: 16px;
+        color: #21243D;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .name {
+        width: 100%;
+    }
+
+    h5 {
+        padding: 5px 10px;
+        border: 0.5px solid #00A8CC;
+        display: inline-block;
+        border-right: 5px solid #00A8CC;
+        border-radius: 3px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    h6 {
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-left: 5px;
+        border-left: 2px solid #00A8CC;
+        border-radius: 5px;
+        font-size: 18px;
     }
 }

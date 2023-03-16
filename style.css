@@ -79,7 +79,7 @@ body {
     transition: .5s;
 }
 
-main {
+.main {
     background: #EDF7FA;
 }
 
@@ -94,7 +94,7 @@ main {
 }
 
 .container-fluid {
-    padding: 0; 
+    padding: 0;
 }
 
 .card {
@@ -219,12 +219,30 @@ main {
     color: #142850;
     background-color: #FFFFFF;
     width: 25%;
-    padding: 15px 20px;
+    padding: 15px 0px 15px 20px;
+    border: 1.5px solid #142850;
+    border-right: 0px solid transparent;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+select,
+option {
+    font-size: 16px;
+    color: #142850;
+    background-color: #FFFFFF;
     border: 1.5px solid #142850;
     border-right: 5px solid #142850;
     margin-bottom: 20px;
     outline: none;
     border-radius: 3px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 15px 5px;
+    cursor: pointer;
 }
 
 .comment {
@@ -306,7 +324,7 @@ footer {
 }
 
 .fa-instagram:hover {
-    color: #c0007a;
+    color: #e50091;
 }
 
 .fa-github:hover {
@@ -336,6 +354,12 @@ footer {
 
 .important-color {
     color: #ff6464;
+}
+
+.week {
+    font-weight: 500;
+    font-size: 30px;
+    color: #21243D;
 }
 
 @media (max-width: 575px) {

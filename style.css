@@ -93,11 +93,15 @@ main {
     padding-bottom: 12px;
 }
 
+.container-fluid {
+    padding: 0; 
+}
+
 .card {
     background: #FFFFFF !important;
     box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25) !important;
     border-radius: 4px !important;
-    padding: 24px 21px 7px 23px;
+    padding: 40px 25px 30px 25px;
     margin-bottom: 32px;
 }
 
@@ -162,6 +166,7 @@ main {
     margin-top: 15px;
     padding-bottom: 10px;
     margin-bottom: 22px;
+    display: inline-block;
 }
 
 .dashboards {
@@ -329,6 +334,10 @@ footer {
     display: flex;
 }
 
+.important-color {
+    color: #ff6464;
+}
+
 @media (max-width: 575px) {
     .navbar {
         margin-top: 20px;
@@ -457,7 +466,7 @@ footer {
         margin-bottom: 17px;
     }
 
-    .icons{
+    .icons {
         font-size: 25px;
         color: #21243D;
         margin-left: 8px;
